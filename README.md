@@ -7,4 +7,4 @@ The courses were a Level 2 Data Analyst undertaken through [Code Nation](https:/
 
 ## Portfolio
 
-My portfolio work is based around [Python Projects](https://github.com/Owen93M/Data-Analyst-Portfolio/tree/main/Football%20Analyst%20Projects), [Excel Projects](https://github.com/Owen93M/Data-Analyst-Portfolio/tree/main/Excel%20Portfolio%20Projects), [Power BI Projects](https://github.com/Owen93M/Data-Analyst-Portfolio/tree/main/Power%20BI%20Projects) and [SQL Projects](https://github.com/Owen93M/Data-Analyst-Portfolio/tree/main/SQL) along with using PowerPoint to create presentations for the projects.
+My portfolio work is based around [Python Projects](https://github.com/Owen93M/Data-Analyst-Portfolio/tree/main/Football%20Analyst%20Projects), [Excel Projects](https://github.com/Owen93M/Data-Analyst-Portfolio/tree/main/Excel%20Portfolio%20Projects), [Power BI Projects](https://github.com/Owen93M/Data-Analyst-Portfolio/tree/main/Power%20BI%20Projects) and [SQL Projects](https://github.com/Owen93M/Data-Analyst-Portfolio/tree/main/SQL%20Projects) along with using PowerPoint to create presentations for the projects.
