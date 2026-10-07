@@ -5,7 +5,7 @@ In the projects I developed the skills that helped me clean all the data, create
 I then put all the charts together and into an interactive dashboard, that was easily readable to all audiences.
 
 * Tools Used:
-....*	Pivot Tables
-....*		LOOKUP (V/H)
-....*		Charts
-....*		Slicers
+....*Pivot Tables
+....*LOOKUP (V/H)
+....*Charts
+....*Slicers
