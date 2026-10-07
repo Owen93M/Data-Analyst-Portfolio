@@ -4,8 +4,8 @@ These projects were combined between independent learning through various YouTub
 In the projects I developed the skills that helped me clean all the data, create Pivot Tables to manipulate the data and then create charts to visualise the data. 
 I then put all the charts together and into an interactive dashboard, that was easily readable to all audiences.
 
-* Tools Used:
-....*Pivot Tables
-....*LOOKUP (V/H)
-....*Charts
-....*Slicers
+- **Tools Used**:
+  - Pivot Tables
+  - LOOKUP (V/H)
+  - Charts
+  - Slicers
