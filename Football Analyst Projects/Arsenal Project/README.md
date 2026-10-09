@@ -1,5 +1,3 @@
-# Title
-
 # Project Overview
 
 -----------
