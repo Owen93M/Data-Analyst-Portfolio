@@ -4,7 +4,7 @@
 
 * These are the question that were looked at to be shown in the **Dashboard**.
 
-<img width="1430" height="802" alt="1  Questions" src="https://github.com/user-attachments/assets/87020532-f9a5-4a31-8459-6b094b891e02" />
+<img width="1452" height="791" alt="1  Questions" src="https://github.com/user-attachments/assets/b05e2da2-5dc4-4778-a8ff-a8e73d7b0b20" />
 
 # Dashboard
 
