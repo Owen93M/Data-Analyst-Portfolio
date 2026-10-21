@@ -10,3 +10,4 @@ Majority of these projects were independently done. Some were done following onl
   - Power Query
   - Buttons
   - Filters
+  - Data Modelling
