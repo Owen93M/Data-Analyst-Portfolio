@@ -1,6 +1,6 @@
 # World Layoffs - Data Cleaning Project
 
-## Crating A New Schema
+## Creating A New Schema
 * Opening a **Schema** to house **Tables**.
 
 <img width="1557" height="862" alt="1  New Schema" src="https://github.com/user-attachments/assets/c04450ee-07fa-49ae-8ca6-df69a3b3eef5" />
@@ -61,150 +61,141 @@
 <img width="679" height="296" alt="12  No Data" src="https://github.com/user-attachments/assets/c7563d4b-30b2-40b1-bfb0-d87d619e411b" />
 
 ## Inserting Data
-* **INSERT** statement is used with **staging table**, followed by a **SELECT** statement and then using the **original table** in a **FROM** statement, **inserts** the **data** into the **staging table**.
+* **INSERT** statement is used with **staging table**, followed by a **SELECT** clause and then using the **original table** in a **FROM** statement, **inserts** the **data** into the **staging table**.
 
 <img width="811" height="652" alt="13  Insert Data" src="https://github.com/user-attachments/assets/c98740ad-a4d3-41ad-ae4b-633555d68d5c" />
 
 ## Creating Unique Row Numbers
-* Firstly using **ROW NUMBER ()** function that **assigns** a **unique sequential integer**. Then using the **OVER ()** clause with **PARTITION BY** and selecting all the **columns**, adds them to the calculation. Using **AS** gives the column an name. As shown, the **table** has a **new column**, that identifies number of **unique values**.
+* Firstly using **ROW NUMBER ()** function that **assigns** a **unique sequential integer**. Then using the **OVER()** clause with **PARTITION BY** and selecting all the **columns**, adds them to the calculation. Using **AS** gives the column an name. As shown, the **table** has a **new column**, that identifies number of **unique values**.
 
 <img width="1073" height="468" alt="14  Created Unique Row Numbers" src="https://github.com/user-attachments/assets/8f8172e7-cf1b-4178-99ce-8d3f1343c78a" />
 
 ## Using CTE To Remove Duplicates
-*
+* Creating a **CTE** to remove the **duplicates**.
 
 <img width="973" height="541" alt="15  Created CTE To Filter" src="https://github.com/user-attachments/assets/d3d2e388-30b4-48c3-afb1-a4c6a2110c8e" />
 
 ## Checking Duplicates
-*
+* Using a **SELECT** statement to check what values are duplicated. 
 
 <img width="1064" height="645" alt="16  Checking Duplicates" src="https://github.com/user-attachments/assets/fb292c98-1dea-4702-83d2-b9245b643f3f" />
 
 ## Shortcut to **CREATE** Statement
-*
+* Going through the **Schema Tab** for a quicker way to produce a **CREATE** statement. 
 
 <img width="767" height="702" alt="17  Create Statment Shortcut" src="https://github.com/user-attachments/assets/7e169bdd-2973-48fd-af05-0db914f84a16" />
 
 ## Shortcut Output
-*
+* This shows what is produced going through the **shortcut**.
 
 <img width="766" height="421" alt="18  Create Shortcut Results, Changed Name" src="https://github.com/user-attachments/assets/53e726ce-a153-4186-b19c-b7fb008b3975" />
 
 ## Adding New Column
-*
+* Adding a **new column** to the **CREATE** statement. Stating the **column name** and the **data type**.
 
 <img width="767" height="456" alt="19  Create  New Column" src="https://github.com/user-attachments/assets/31e79c55-93d0-4138-bddb-5d56e0eaae49" />
 
 ## No Data In Table
-*
+* Using **SELECT** clause shows **no data** in the new table, which can be populated the same way as before with the **INSERT** statement.
 
 <img width="1112" height="825" alt="20  Empty Table" src="https://github.com/user-attachments/assets/2dfb9f41-9b91-4460-b18a-5ca932e12f48" />
 
 ## Searching For Duplicates
-*
+* Adding the **WHERE** clause to the **SELECT** clause, allows to **manipulate** the data and select **specified** values.
 
 <img width="284" height="129" alt="21  Find Duplicates" src="https://github.com/user-attachments/assets/4fc25385-8713-4907-8a49-613954b09413" />
 
 ## Deleting Duplicates
-*
+* Using the **DELETE** clause instead of the **SELECT** clause to **remove** the duplicates.
 
 <img width="292" height="141" alt="22  Deleting Duplicates" src="https://github.com/user-attachments/assets/2287a266-01b9-443f-bc35-2194215e6ae6" />
 
 ## Duplicates Removed
-*
+* Outcome of **deleting** the duplicates.
 
 <img width="1080" height="461" alt="23  Deletion Results" src="https://github.com/user-attachments/assets/afaa1688-b124-4c73-a261-dd0839441184" />
 
-## Removing Whitespace Around Text
-*
-
-
-## Updated Columns Without Whitespaces
-*
+## Removing Whitespace & Updateing Columnss
+* **Selecting** which **column** to look at then using the **TRIM()** function with the **column** inside the **()**, followed by a **FROM** clause, will **remove whitespace** from around the **values** in that **column**. Then **updating** the **original column** with the new values, with **UPDATE** & **SET** clauses. 
 
 <img width="450" height="688" alt="26  Update Results" src="https://github.com/user-attachments/assets/c0563e39-4931-4bd0-9925-f01291fc9287" />
 
 ## Identifying Specified Values
-*
+* Using the **WHERE** clause along with **LIKE** to find specified values. In the **Like** clause using a **%** after the text required will find **all** text that starts with the matching text.
 
 <img width="230" height="83" alt="27  Searching for company name" src="https://github.com/user-attachments/assets/38e60d58-ce33-4fd4-81d2-1d2ff8af3ee6" />
 
-## Updating Value Names To Match
-*
-
-<img width="292" height="65" alt="28  Update Industy column data" src="https://github.com/user-attachments/assets/b3b789f7-0bce-4153-bd8a-96067da4500f" />
-
-## Setting New Update To Table
-*
+## Updating Value Names To Match & Setting Into The Table
+* Using **UPDATE** & **SET** clauses to change the text to the required format.
 
 <img width="304" height="368" alt="29  Update results" src="https://github.com/user-attachments/assets/95b880b3-b7b2-4b35-935b-ef5c10c5c2f9" />
 
 ## Removing Tailing Marks At The End Of Texts
-*
+* Like removing **whitespace** using the **TRIM()**. Inside the **()** add the **TRAILING** clause and in **' '**, what is required to be removed, along with the **column name** that is being looked at.
 
 <img width="481" height="105" alt="30  Removing tailing mark in column" src="https://github.com/user-attachments/assets/27557432-3e82-4d64-af69-ab20af147014" />
 
 ## Updated Values 
-*
+* Use the **UPDATE** & **SET** clauses to change the text to the required format, along with a **WHERE** clause with the **column** & a **LIKE** clause for the text that is wanting to be **changed**.
 
 <img width="402" height="73" alt="31  Update removed trailing marks" src="https://github.com/user-attachments/assets/cfad889f-4886-4b2f-9a29-5b3d2746412d" />
 
 ## Checking Column Field Type
-*
+* Open the **Column** list in the **Tables** section in the **Schema Table** to show what **Data Type** each column is. 
 
 <img width="217" height="665" alt="32  Column definition" src="https://github.com/user-attachments/assets/ceefbdf2-f002-41cd-af5c-e99e912d0802" />
 
 ## Changing String To Date Type
-*
+* **Selecting** the column to look at, then using **STR_TO_DATE()** add the **column** and **date format** inside the **()**. This function will change **String** format into **Date** format.
 
 <img width="315" height="303" alt="33  Changing String to Date with function" src="https://github.com/user-attachments/assets/242a2c4e-5c34-4b42-9ff8-c96aef99e199" />
 
 ## View All Columns With Data Types
-*
+* Under the **Schema Tab** is a list of all **columns** & **data types**.
 
 <img width="206" height="211" alt="34  Columns and Types" src="https://github.com/user-attachments/assets/02f674f2-36bb-4b4d-94bf-aad85f6664e2" />
 
 ## Modify Data Types In Columns
-*
+* **ATLER TABLE** clause with the **table name**. Then use **MODIFY COLUMN** with the **column name** and what **data type** required, will change that column's data type.
 
 <img width="251" height="61" alt="35  Modify Column" src="https://github.com/user-attachments/assets/f9f93686-92f0-4c11-b6db-0e40819f5e8e" />
 
 ## Data Type Changed In Column
-*
+* The image shows how **Date** has change **data type**. 
 
 <img width="207" height="225" alt="36  Date column type changed" src="https://github.com/user-attachments/assets/826d4946-f7aa-42e4-a392-ac25b56b0fd3" />
 
 ## Finding Null Values In Columns
-*
+* Using **WHERE** clause on a **column** followed by **IS NULL**, to find any **NULL** values inside that column.
 
 <img width="388" height="315" alt="37  Finding Null Values in column" src="https://github.com/user-attachments/assets/27b56350-7efd-4145-8f32-4d5480bfb0a6" />
 
 ## Finding Null Values In Columns 2 Different Columns
-*
+* Copying the same process as above but adding the **AND** clause to add **another column** to search. 
 
 <img width="455" height="332" alt="38   Finding Null Values in 2 columns" src="https://github.com/user-attachments/assets/9717f266-004f-4dcb-a961-e6f62a6dcd35" />
 
 ## Checking Column For Null Or Empty Values
-*
+* Like the previous example, using **OR** is another option, however this will **only** show the output that is **equal to one or the other**, not both like **AND**
 
 <img width="219" height="96" alt="39  Column Null or Empty value" src="https://github.com/user-attachments/assets/6fbbc9d4-a320-4f83-b2c0-165b0431fb4f" />
 
 ## Using Join To Find Null Values
-*
+* Using a **JOIN** clause on the **same table** to find any **NULL** values in **specified columns**.
 
 <img width="1656" height="423" alt="40  JOIN and results" src="https://github.com/user-attachments/assets/68415211-cff1-4c26-a57b-065985ca712e" />
 
 ## Delete Any Null Values Found
-*
+* Using the **DELETE** clause to remove any **NULL** values found.
 
 <img width="713" height="280" alt="41  Delete null values" src="https://github.com/user-attachments/assets/91eaa456-6c52-43e3-8124-4f4eb3eb2951" />
 
 ## Drop Column
-*
+* Using  **DROP** clause and **column name** to drop column from the table.
 
 <img width="293" height="56" alt="42  Drop Column" src="https://github.com/user-attachments/assets/f24e1311-dda6-440d-8de3-af481e5819c9" />
 
 ## Data Cleaned
-*
+* All data cleaned and ready to use for **EDA**.
 
 <img width="821" height="326" alt="43  Cleaned Data" src="https://github.com/user-attachments/assets/3c0edf3e-74c5-4938-968a-efb4184c96cc" />
